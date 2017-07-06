@@ -1,6 +1,6 @@
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/nafeu/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -113,7 +113,7 @@ export PATH=${PATH}:~/Development/resources/android-sdk-macosx/platform-tools:~/
 export ANDROID_HOME=~/Development/resources/android-sdk-macosx
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
-export PATH=$PATH:/Users/nafeu/Development/scripts/bin
+export PATH=$PATH:$HOME/Development/scripts/bin
 
 # bluemix cli
 source /usr/local/Bluemix/bx/zsh_autocomplete
@@ -126,7 +126,7 @@ export NVM_DIR="$HOME/.nvm"
 alias dev="cd ~/Development"
 alias github="cd ~/Development/github"
 alias work="cd ~/Development/work-projects"
-alias subldir="cd /Users/nafeu/Library/Application\ Support/Sublime\ Text\ 3/Packages"
+alias subldir="cd $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages"
 
 # osx aliases
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
@@ -148,8 +148,8 @@ alias ll="ls -la"
 alias rpiconnect="ssh pi@192.168.1.19"
 alias license="cp ~/Development/resources/LICENSE.txt ."
 alias mrsubs="curl http://phrakture.com/apps/mrsubmission/data/questions.json | jsonpp"
-alias gryt="node /Users/nafeu/Development/github/gryt-focus/remote.js"
-alias grint="node /Users/nafeu/Development/github/gryt-focus/remote.js interrupt"
+alias gryt="node $HOME/Development/github/gryt-focus/remote.js"
+alias grint="node $HOME/Development/github/gryt-focus/remote.js interrupt"
 
 # work aliases
-source /Users/nafeu/.workrc
+source $HOME/.workrc
