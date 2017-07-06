@@ -108,7 +108,7 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-# android
+# path exports
 export PATH=${PATH}:~/Development/resources/android-sdk-macosx/platform-tools:~/Development/resources/android-sdk-macosx/tools
 export ANDROID_HOME=~/Development/resources/android-sdk-macosx
 export PATH="$PATH:$HOME/.rvm/bin"
