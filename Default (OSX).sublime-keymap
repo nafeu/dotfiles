@@ -1,0 +1,16 @@
+[
+  { "keys": ["alt+super+="], "command": "bh_toggle_high_visibility" },
+  { "keys": ["ctrl+alt+a"],
+    "command": "bh_key", "args": {"lines" : true, "plugin": {"type": ["__all__"], "command": "bh_modules.bracketselect"} } },
+  // arrow keys to hjkl
+  { "keys": ["alt+h"], "command": "move", "args": {"by": "characters", "forward": false} },
+  { "keys": ["alt+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+  { "keys": ["alt+k"], "command": "move", "args": {"by": "lines", "forward": false} },
+  { "keys": ["alt+j"], "command": "move", "args": {"by": "lines", "forward": true} },
+  // other combinations that uses up down left right
+  { "keys": ["shift+alt+h"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true} },
+  { "keys": ["shift+alt+l"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true} },
+  { "keys": ["shift+alt+k"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true} },
+  { "keys": ["shift+alt+j"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true} },
+  { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
+]
