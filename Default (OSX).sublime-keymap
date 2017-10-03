@@ -1,16 +1,48 @@
 [
+  // Bracket Highlighter
   { "keys": ["alt+super+="], "command": "bh_toggle_high_visibility" },
   { "keys": ["ctrl+alt+a"],
     "command": "bh_key", "args": {"lines" : true, "plugin": {"type": ["__all__"], "command": "bh_modules.bracketselect"} } },
-  // arrow keys to hjkl
-  { "keys": ["alt+h"], "command": "move", "args": {"by": "characters", "forward": false} },
+
+  // Up Arrow -> I
+  { "keys": ["alt+i"], "command": "move", "args": {"by": "lines", "forward": false} },
+  { "keys": ["shift+alt+i"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true} },
+  { "keys": ["ctrl+shift+alt+i"], "command": "select_lines", "args": {"forward": false} },
+  { "keys": ["ctrl+super+alt+i"], "command": "swap_line_up" },
+  { "keys": ["super+alt+i"], "command": "move_to", "args": {"to": "bof", "extend": false} },
+  { "keys": ["super+alt+shift+i"], "command": "move_to", "args": {"to": "bof", "extend": true} },
+
+  // Down Arrow -> K
+  { "keys": ["alt+k"], "command": "move", "args": {"by": "lines", "forward": true} },
+  { "keys": ["shift+alt+k"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true} },
+  { "keys": ["ctrl+shift+alt+k"], "command": "select_lines", "args": {"forward": true} },
+  { "keys": ["ctrl+super+alt+k"], "command": "swap_line_down" },
+  { "keys": ["super+alt+k"], "command": "move_to", "args": {"to": "eof", "extend": false} },
+  { "keys": ["super+alt+shift+k"], "command": "move_to", "args": {"to": "eof", "extend": true} },
+
+  // Left Arrow -> J
+  { "keys": ["alt+j"], "command": "move", "args": {"by": "characters", "forward": false} },
+  { "keys": ["shift+alt+j"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true} },
+  { "keys": ["ctrl+alt+j"], "command": "move", "args": {"by": "subwords", "forward": false} },
+  { "keys": ["ctrl+alt+shift+j"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+  { "keys": ["ctrl+alt+left"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+  { "keys": ["super+alt+j"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+  { "keys": ["super+alt+shift+j"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+
+  // Right Arrow -> L
   { "keys": ["alt+l"], "command": "move", "args": {"by": "characters", "forward": true} },
-  { "keys": ["alt+k"], "command": "move", "args": {"by": "lines", "forward": false} },
-  { "keys": ["alt+j"], "command": "move", "args": {"by": "lines", "forward": true} },
-  // other combinations that uses up down left right
-  { "keys": ["shift+alt+h"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true} },
   { "keys": ["shift+alt+l"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true} },
-  { "keys": ["shift+alt+k"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true} },
-  { "keys": ["shift+alt+j"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true} },
+  { "keys": ["ctrl+alt+l"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+  { "keys": ["ctrl+alt+shift+l"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
+  { "keys": ["super+alt+l"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+  { "keys": ["super+alt+shift+l"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+
+  // Line Jumper
+  { "keys": ["alt+o"], "command": "line_jumper", "args": {"number_of_lines": 4, "cmd": "up"}},
+  { "keys": ["shift+alt+o"], "command": "line_jumper", "args": {"number_of_lines": 4, "cmd": "up_select"}},
+  { "keys": ["alt+u"], "command": "line_jumper", "args": {"number_of_lines": 4, "cmd": "down"}},
+  { "keys": ["shift+alt+u"], "command": "line_jumper", "args": {"number_of_lines": 4, "cmd": "down_select"}},
+
+  // Customs
   { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
 ]
