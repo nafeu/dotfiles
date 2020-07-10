@@ -1,9 +1,4 @@
 [
-  // Bracket Highlighter
-  { "keys": ["alt+super+="], "command": "bh_toggle_high_visibility" },
-  { "keys": ["ctrl+alt+a"],
-    "command": "bh_key", "args": {"lines" : true, "plugin": {"type": ["__all__"], "command": "bh_modules.bracketselect"} } },
-
   // Up Arrow -> I
   { "keys": ["alt+i"], "command": "move", "args": {"by": "lines", "forward": false} },
   { "keys": ["shift+alt+i"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true} },
@@ -36,12 +31,6 @@
   { "keys": ["ctrl+alt+shift+l"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
   { "keys": ["super+alt+l"], "command": "move_to", "args": {"to": "eol", "extend": false} },
   { "keys": ["super+alt+shift+l"], "command": "move_to", "args": {"to": "eol", "extend": true} },
-
-  // Line Jumper
-  { "keys": ["alt+o"], "command": "line_jumper", "args": {"number_of_lines": 4, "cmd": "up"}},
-  { "keys": ["shift+alt+o"], "command": "line_jumper", "args": {"number_of_lines": 4, "cmd": "up_select"}},
-  { "keys": ["alt+u"], "command": "line_jumper", "args": {"number_of_lines": 4, "cmd": "down"}},
-  { "keys": ["shift+alt+u"], "command": "line_jumper", "args": {"number_of_lines": 4, "cmd": "down_select"}},
 
   // Customs
   { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
