@@ -18,7 +18,6 @@ export PATH=$PATH:$HOME/Development/scripts/bin
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
-# folder aliases
 alias dev="cd ~/Development"
 alias github="cd ~/Development/github"
 alias work="cd ~/Development/work-projects"
@@ -31,7 +30,6 @@ alias ohmyzsh="subl ~/.oh-my-zsh"
 alias zshconfig="subl ~/.zshrc"
 alias zshreload="source ~/.zshrc"
 
-# dev
 alias pyserv="python -m SimpleHTTPServer 8000"
 alias phpserv="php -S localhost:8000"
 alias ns="npm start"
@@ -46,3 +44,8 @@ alias invoice="python3 ~/Development/github/invoice-gen/invoice-gen.py"
 alias oavpb="processing-java --sketch=/Users/nafeu/Development/github/oavp/src --force --run; open /Users/nafeu/Development/github/oavp/src/processing-movie.mp4;"
 alias oavpbs="processing-java --sketch=/Users/nafeu/Development/github/oavp/src --force --run; open /Users/nafeu/Development/github/oavp/src/processing-movie.mp4; subl /Users/nafeu/Development/github/oavp/;"
 alias oavpv="open /Users/nafeu/Development/github/oavp/src/processing-movie.mp4;"
+
+alias svmpac="osascript ~/Development/github/vmpac-r/setup.scpt"
+alias soavp="osascript ~/Development/github/oavp/setup.scpt"
+alias snafoodle="osascript ~/Development/github/nafoodle.io/setup.scpt"
+alias scollegefalafel="osascript ~/Development/github/collegefalafel/setup.scpt"
