@@ -49,3 +49,7 @@ alias svmpac="osascript ~/Development/github/vmpac-r/setup.scpt"
 alias soavp="osascript ~/Development/github/oavp/setup.scpt"
 alias snafoodle="osascript ~/Development/github/nafoodle.io/setup.scpt"
 alias scollegefalafel="osascript ~/Development/github/collegefalafel/setup.scpt"
+
+alias argo="python ~/Development/github/activity-roulette/main.py"
+alias arlog="cat ~/Development/github/activity-roulette/log.txt"
+alias aredit="subl ~/Development/github/activity-roulette/activities.txt"
