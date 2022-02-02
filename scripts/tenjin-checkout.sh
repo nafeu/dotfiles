@@ -1,0 +1,1 @@
+git checkout nn_tenjin_$1

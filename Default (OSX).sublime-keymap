@@ -2,5 +2,8 @@
   // Customs
   { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
   { "keys": ["super+t"], "command": "double_click_at_caret" },
-  { "keys": ["alt+f"], "command": "reveal_in_side_bar"}
+  { "keys": ["alt+f"], "command": "reveal_in_side_bar"},
+  { "keys": ["ctrl+k"], "command": "scroll_lines", "args": {"amount": 5.0} },
+  { "keys": ["ctrl+j"], "command": "scroll_lines", "args": {"amount": -5.0} },
+  { "keys": ["ctrl+f"], "command": "ace_jump_word" }
 ]
