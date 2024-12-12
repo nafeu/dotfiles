@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-PropTypes.func
+PropTypes.func${1:.isRequired,}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>ptf</tabTrigger>

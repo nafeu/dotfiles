@@ -1,0 +1,115 @@
+==> Formulae
+aften     lame      ncurses
+aom     leptonica   net-snmp
+apr     libaec      nettle
+apr-util    libarchive    node
+argon2      libass      node@16
+aribb24     libassuan   npth
+asdf      libavif     numpy
+autoconf    libb2     oniguruma
+automake    libbluray   openblas
+aws-rotate-key    libde265    opencore-amr
+bat     libdeflate    openexr
+bdw-gc      libevent    openjdk
+berkeley-db@5   libffi      openjpeg
+bison     libgcrypt   openldap
+bison@2.7   libgpg-error    openssl@1.1
+brotli      libheif     openssl@3
+c-ares      libidn      openvino
+ca-certificates   libidn2     opus
+cairo     libksba     opusfile
+cjson     liblo     p11-kit
+cmake     liblqr      p7zip
+coreutils   libmicrohttpd   pango
+csound      libmpc      pcre
+curl      libnghttp2    pcre2
+dav1d     libogg      php
+eye-d3      libomp      pinentry
+faust     libpng      pixman
+ffmpeg      libpq     pkgconf
+flac      libraw      portaudio
+fltk      librist     portmidi
+fluid-synth   librsvg     postgresql@14
+fnm     libsamplerate   pugixml
+fontconfig    libsndfile    python-packaging
+freetds     libsodium   python@3.12
+freetype    libsoxr     python@3.13
+frei0r      libssh      rav1e
+fribidi     libssh2     rbenv
+gcc     libtasn1    readline
+gd      libtiff     rtmpdump
+gdbm      libtool     rubberband
+gdk-pixbuf    libunibreak   ruby-build
+gettext     libunistring    sdl2
+gh      libusb      shared-mime-info
+ghostscript   libuv     snappy
+giflib      libvidstab    sox
+glib      libvmaf     speex
+gmp     libvorbis   sqlite
+gnupg     libvpx      srt
+gnutls      libwebsockets   stk
+graphite2   libx11      svt-av1
+guile     libxau      tbb
+harfbuzz    libxcb      tesseract
+hdf5      libxdmcp    theora
+heroku      libxext     tidy-html5
+heroku-node   libxrender    unbound
+highway     libyaml     unixodbc
+hwloc     libzip      waifu2x
+icu4c@76    little-cms2   webp
+id3lib      llvm@18     wiiuse
+id3v2     lz4     x264
+imagemagick   lzo     x265
+imath     m4      xorgproto
+isl     mad     xvid
+jack      mbedtls     xz
+jasper      mongodb-community zeromq
+jbig2dec    mongodb-database-tools  zimg
+jpeg-turbo    mongosh     zlib
+jpeg-xl     mpdecimal   zsh
+k9s     mpfr      zstd
+krb5      mpg123
+
+==> Casks
+1password-cli   font-jetbrains-mono spotify
+cameracontroller  font-victor-mono  visual-studio-code
+discord     foxitreader   warp
+docker      ngrok     wkhtmltopdf
+figma     notion      zoom
+font-cormorant-infant rar
+font-fira-code    rectangle
+
+---
+
+brew leaves
+
+asdf
+aws-rotate-key
+bat
+bison
+bison@2.7
+cmake
+csound
+derailed/k9s/k9s
+eye-d3
+ffmpeg
+fnm
+gdbm
+gh
+gnupg
+guile
+heroku/brew/heroku
+id3v2
+imagemagick
+imxieyi/waifu2x/waifu2x
+libffi
+librsvg
+mongodb/brew/mongodb-community
+openvino
+p7zip
+php
+postgresql@14
+rbenv
+sox
+zlib
+zsh

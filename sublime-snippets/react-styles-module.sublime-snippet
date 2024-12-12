@@ -1,9 +1,9 @@
 <snippet>
   <content><![CDATA[
-PropTypes.arrayOf(${1})${2:.isRequired,}
+import styles from './styles.module.scss'
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>pta</tabTrigger>
+  <tabTrigger>ism</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.js</scope>
 </snippet>

@@ -1,0 +1,35 @@
+<snippet>
+  <content><![CDATA[
+import { useState } from 'react'
+import PropTypes from 'prop-types'
+import classNames from 'classnames'
+import { ${2} } from './constants'
+
+import styles from './styles.module.scss'
+
+const ${1} = ({ className${3} }) => {
+  const [state, setState] = useState(null)
+
+  return (
+    <div className={classNames(styles.${4}, className)}>
+      ${5}
+      {state}
+    </div>
+  )
+}
+
+${1}.propTypes = {
+  className: PropTypes.string,
+}
+
+${1}.defaultProps = {
+  className: null
+}
+
+export default ${1}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rnc</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

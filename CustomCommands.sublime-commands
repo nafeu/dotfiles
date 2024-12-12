@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Create Styles Module",
+        "command": "create_styles_module"
+    },
+    {
+        "caption": "Label In Order",
+        "command": "label_in_order"
+    }
+]

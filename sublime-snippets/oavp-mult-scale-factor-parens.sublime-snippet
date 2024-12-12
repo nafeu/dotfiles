@@ -1,9 +1,7 @@
 <snippet>
-  <content><![CDATA[
-PropTypes.arrayOf(${1})${2:.isRequired,}
-]]></content>
+  <content><![CDATA[(${SELECTION}) * SCALE_FACTOR]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>pta</tabTrigger>
+  <tabTrigger>osp</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.js</scope>
+  <scope>source.pde</scope>
 </snippet>

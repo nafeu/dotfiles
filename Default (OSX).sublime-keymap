@@ -4,12 +4,20 @@
   { "keys": ["alt+f"], "command": "reveal_in_side_bar"},
   { "keys": ["ctrl+k"], "command": "scroll_lines", "args": {"amount": 5.0} },
   { "keys": ["ctrl+j"], "command": "scroll_lines", "args": {"amount": -5.0} },
-  { "keys": ["ctrl+f"], "command": "ace_jump_word" },
+  { "keys": ["shift+enter"], "command": "ace_jump_char" },
+  { "keys": ["ctrl+f"], "command": "ace_jump_line" },
   { "keys": ["super+j"], "command": "join_lines" },
   { "keys": ["alt+shift+h"], "command": "git_add_selected_hunk" },
-  { "keys": ["ctrl+a"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
+  { "keys": ["ctrl+a"], "command": "expand_selection", "args": {"to": "smart"} },
   { "keys": ["ctrl+l"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"}, "context": [{ "key": "overlay_has_focus", "operator": "equal", "operand": false }, ], },
   { "keys": ["ctrl+;"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} },
   { "keys": ["alt+j"], "command": "move", "args": { "by": "lines", "forward": true } },
-  { "keys": ["alt+k"], "command": "move", "args": { "by": "lines", "forward": false } }
+  { "keys": ["alt+k"], "command": "move", "args": { "by": "lines", "forward": false } },
+  { "keys": ["alt+o"], "command": "prompt_ollama" },
+  { "keys": ["alt+]"], "command": "sublime_linter_goto_error" },
+  { "keys": ["ctrl+."], "command": "next_modification" },
+  { "keys": ["ctrl+k", "ctrl+f"], "command": "sublime_linter_quick_actions" },
+  { "keys": ["alt+l"], "command": "right_delete" },
+  { "keys": ["alt+;"], "command": "delete_word" },
+  { "keys": ["alt+s"], "command": "sort_lines" }
 ]

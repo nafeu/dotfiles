@@ -1,9 +1,11 @@
 <snippet>
-  <content><![CDATA[
-PropTypes.arrayOf(${1})${2:.isRequired,}
+  <content><![CDATA[{ property: "w", value: 100 },
+{ property: "h", value: 100 },
+{ property: "s", value: 100 },
+{ property: "strokeColor", value: palette.flat.white },
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>pta</tabTrigger>
+  <tabTrigger>oopd</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.js</scope>
 </snippet>
