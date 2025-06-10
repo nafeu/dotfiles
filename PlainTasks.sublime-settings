@@ -1,0 +1,8 @@
+{
+    "open_tasks_bullet": "□",
+    "date_format": "(%d-%m-%y %H:%M)",
+    "font_size": 20,
+    "font": "JetBrains Mono",
+    "line_numbers": false,
+    "color_scheme": "Packages/PlainTasks/tasks-material-palenight.hidden-tmTheme"
+}

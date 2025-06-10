@@ -1,0 +1,26 @@
+   {
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"font_face": "JetBrains Mono",
+	"font_size": 17,
+	"open_files_in_new_window": false,
+	"overlay_scroll_bars": "enabled",
+	"save_on_focus_lost": true,
+	"scroll_past_end": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_tree_headings": true,
+	"dlig": true,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Palenight.tmTheme",
+	"theme": "Material-Theme-Palenight.sublime-theme",
+	"folder_exclude_patterns": ["node_modules", ".git", "dist", "build"],
+	"ensure_newline_at_eof_on_save": true,
+	"dart_sdk_path": "/Users/nafeu/Development/flutter/bin/dart",
+	"index_files": true,
+	"word_wrap": "false",
+	"jumpy.label_css": "background-color: color(#d0d0d0 #292d3e); font-size: 0.7rem;",
+}
